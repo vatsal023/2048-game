@@ -1,0 +1,23 @@
+.container{
+    border:2px solid black;
+    padding:5px;
+    height:75vh;
+    width:30vw;
+    margin:auto;
+}
+.container>div{
+    margin-bottom: 10px;
+}
+.status{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+}
+.status> :first-child{
+    font-size:40px;
+    margin-left:10px;
+}
+.btn1{
+    
+}
