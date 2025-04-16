@@ -91,3 +91,42 @@ margin-left:280px;
     height:64.5px;
     font-size:40px;
 }
+@media(max-width:1200px)
+{
+    .btn1{
+        margin-left:100px;
+    }   
+    .container{
+
+        width:50vw;
+        /* margin-right:10px; */
+    }
+    .status >:first-child{
+        width:17vw;
+    }
+    .stats{
+        width:30vw;
+        gap:20px;
+    }
+    .stats>div{
+        width:9vw;
+        padding:0 5px;
+    }
+}
+@media(max-width:671px)
+{
+    .container{
+
+        width:80vw;
+        height:85vh;
+    }
+    .status >:first-child{
+        width: 30vw;
+    }
+    .stats{
+        width:48vw;
+    }
+    .btn1{
+        margin-left:25px;
+    }
+}
